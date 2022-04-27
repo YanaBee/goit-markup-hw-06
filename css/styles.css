@@ -768,6 +768,10 @@ a {
   text-align: center;
   padding: 6px;
 }
+
+textarea {
+  resize: none;
+}
 /* PAGE - Portfolio */
 
 .nav-button {
