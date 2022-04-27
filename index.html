@@ -332,6 +332,7 @@
     </div>
 </section>
 
+<!-- Модальное окно -->
 <div class="backdrop is-hidden" data-modal>
     <div class="modal">
         <button class="close-button" data-modal-close>
@@ -339,9 +340,24 @@
                 <use href="./image/icons.svg#icon-close-button"></use>
             </svg>
         </button>
+        <form>
+            <label for="name">Имя</label>
+            <input type="text" name="name" id="name">
+
+            <label for="tel">Телефон</label>
+            <input type="tel" name="tel" id="tel">
+
+            <label for="mail">Почта</label>
+            <input type="email" name="mail" id="mail">
+
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </form>
     </div>
+
 </div>
+
 </main>
+
 <!--Футер с контактами-->
 <footer class="footer-contacts"> 
         <div class="container information">
@@ -399,23 +415,7 @@
                     </li>
                 </ul>
             </div>
-                <!-- <div class="subscribe-form">
-                    <p class="subscribe-text">
-                        Подпишитесь на рассылку
-                    </p>
-                    <form class="subscribe-mail" autocomplete="on">
-
-                            <input type="email" autofocus placeholder="E-mail">
-                        <button type="submit" class="submit-subscribe">Подписаться
-                            <svg class="send-icon">
-                                <use href="./image/icons.svg#icon-send"></use>
-                            </svg>
-                        </button>
-                   
-                    </form>
-
-                </div> -->
-
+                
                 <form class="form" autocomplete="on">
                 
                     <div class="subscribe-element">

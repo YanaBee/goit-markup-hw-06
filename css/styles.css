@@ -625,9 +625,6 @@ a {
   padding: 15px;
 }
 
-/* .form-input::placeholder {
-  color: var(--text-accent);
-} */
 .submit-subscribe {
   position: relative;
   font-family: var(--main-font);
