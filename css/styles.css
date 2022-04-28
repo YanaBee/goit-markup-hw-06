@@ -848,8 +848,11 @@ textarea {
 .checkbox {
   display: flex;
   flex-direction: row;
-  margin-bottom: 30px;
-  margin-top: 20px;
+  margin-left: 12px;
+ 
+  align-items: center;
+  /* margin-bottom: 30px;
+  margin-top: 20px; */
 }
 .submit-modal {
   padding: 10px 55px;
@@ -869,7 +872,7 @@ textarea {
   letter-spacing: 0.06em;
   font-style: normal;
   color: var(--text-accent);
-  margin: 0 124px;
+  margin: 30px 124px 0;
 }
 
 .field-label {
@@ -879,6 +882,8 @@ textarea {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--contact-color);
+  margin-left: 8px;
+  /* margin-bottom: 32px; */
 }
 .conditions {
   font-family: var(--main-font);
