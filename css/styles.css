@@ -623,6 +623,7 @@ a {
   background-color: var(--background-color-dark);
   margin: 20px 0 0;
   padding: 15px;
+  color: var(--text-accent);
 }
 
 .submit-subscribe {
