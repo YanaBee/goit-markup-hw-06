@@ -757,23 +757,23 @@ a {
 
 .close-button {
   position: absolute;
+  top: 8px;
+  right: 8px;
+  box-sizing: border-box;
   background-color: var(--background-color-white);
   cursor: pointer;
   display: flex;
-  margin-top: 8px;
-  margin-right: 8px;
   width: 30px;
   height: 30px;
   border-radius: 50%;
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  box-sizing: border-box;
   text-align: center;
   padding: 6px;
 }
 
 textarea {
-  margin: 4px 0 0;
+  /* margin: 4px 0 0; */
   resize: none;
 }
 
@@ -785,7 +785,7 @@ textarea {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color);
-  margin-bottom: 12px;
+  /* margin-bottom: 12px; */
 
 }
 .form-modal {
@@ -809,19 +809,16 @@ textarea {
 }
 
 .field-input {
-  position: relative;
+  /* position: relative; */
   padding: 12px 42px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
   height: 40px;
   margin-bottom: 10px;
-  margin-top: 4px;
+  /* margin-top: 4px; */
 }
 
-.form-field {
-  margin-bottom: 4px;
-}
 
 .field-input::placeholder {
   font-family: var(--main-font);
@@ -849,10 +846,8 @@ textarea {
   display: flex;
   flex-direction: row;
   margin-left: 12px;
- 
+  margin-top: 20px;
   align-items: center;
-  /* margin-bottom: 30px;
-  margin-top: 20px; */
 }
 .submit-modal {
   padding: 10px 55px;
@@ -882,9 +877,11 @@ textarea {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--contact-color);
-  margin-left: 8px;
+  margin-bottom: 4px;
+  /* margin-left: 8px; */
   /* margin-bottom: 32px; */
 }
+
 .conditions {
   font-family: var(--main-font);
   font-weight: 400;
@@ -897,8 +894,15 @@ textarea {
 
 .modal-icon {
   position: absolute;
-  top:0;
-  left: 0 ;
+  top:104px;
+  left: 52px;
+  display: inline-flex;
+  width: 18px;
+  height: 18px;
+  justify-content: center;
+  align-items: center;
+  /* margin-right: 10px; */
+  /* fill: currentColor; */
 }
 
 .svg-icon {
